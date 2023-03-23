@@ -38,7 +38,7 @@ export default function Navbar() {
 					</li>		
 					<li>
 						<a href="#contact">
-							Home
+							Contact
 						</a>
 					</li>		
 					<li>
@@ -120,6 +120,20 @@ const Nav = styledComponents.nav`
 					}
 					button {
 						border: 1px solid var(--primary-color);
+						background-color: transparent;
+						color: white;
+						border-radius: 0.3rem;
+						padding: 0.8rem;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						gap: 0.7rem;
+						font-weight: bold;
+						cursor: pointer;
+						svg {
+							font-weight: bold;
+							font-size: 1.1rem;
+						}
 					}
 				}
 		}
