@@ -88,7 +88,38 @@ const Nav = styledComponents.nav`
 					gap: 2rem;
 
 					li {
-						padding: 0%, 5rem 1rem;
+						padding: 0.5rem 1rem;
+						transition: .3s ease-in-out;
+						border-radius: 0.3rem;
+
+						&:first-of-type, &:hover {
+							background-color: var(--primary-color);
+							a {
+								color: black;
+							}
+						}
+ 						a {
+							text-decoration: none;
+							color: white;
+							font-weight: bold;
+							transition: .3s ease-in-out;
+						}
+					}
+				}
+				.login-btn {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 2rem;
+					.flag {
+						display: flex;
+						justify-content: center;
+						gap: 0.3rem;
+						align-items: center;
+						font-weight: bold;
+					}
+					button {
+						border: 1px solid var(--primary-color);
 					}
 				}
 		}
