@@ -29,9 +29,10 @@ ___________
 5. Scroll & hover over menu items.
 6. Edit and add more features
 ### Photos of project:
-![](assets/react-crypt-game-website-1.gif)
-![](assets/react-crypt-game-website-2.png)
-![](../assets/react-crypt-game-website-3.gif)
+![](./src/assets/react-crypt-game-website-1.gif)
+![](./src/assets/react-crypt-game-website-2.png)
+![](./src/assets/react-crypt-game-website-3.gif)
+![](./src/assets/react-crypt-game-website-4.gif)
 
 ### Apps used:
 
