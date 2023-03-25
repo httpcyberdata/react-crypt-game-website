@@ -24,9 +24,19 @@ ___________
 ### How to use
 
 ### Photos of project:
-![](assets/cryptgame_1.gif)
+![](assets/react-crypt-game-website-1.gif)
+![](assets/react-crypt-game-website-2.png)
+![](assets/react-crypt-game-website-3.gif)
 
 ### Apps used:
+
+Sublime Text: [https://www.sublimetext.com/](https://www.sublimetext.com/) 
+
+Tabby: [https://tabby.sh/](https://tabby.sh/) 
+
+GitHub CLI: [https://cli.github.com/](https://cli.github.com/) 
+
+Google Chrome: [https://www.google.com/chrome/dr/download/](https://www.google.com/chrome/dr/download/)
 
 ### Coding styles I used:
 
