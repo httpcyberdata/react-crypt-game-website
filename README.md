@@ -33,6 +33,7 @@ ___________
 ![](./src/assets/react-crypt-game-website-2.png)
 ![](./src/assets/react-crypt-game-website-3.gif)
 ![](./src/assets/react-crypt-game-website-4.gif)
+![](./src/assets/react-crypt-game-website-5.gif)
 
 ### Apps used:
 
@@ -48,3 +49,4 @@ Google Chrome: [https://www.google.com/chrome/dr/download/](https://www.google.c
 
 ### What I learned
 1. How to use styledComponents. First, create a styled component using a const variable and a styledComponents object. Then, use the component in the code. You can then use custom CSS to style it in backticks.
+2. What Window.pageYOffset is. On Geeksforgeeks.org, pageYOffset is used for returning the pixels of the current document which have been scrolled from the upper left corner of the window vertically. It is a read-only property and it returns a number that represents the number of pixels that the document has already been scrolled from the upper left corner of the window vertically. 

@@ -5,6 +5,7 @@ import Blogs from './components/Blogs';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import BuySell from './components/BuySell';
+import Designs from './components/Designs';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <ScrollToTop />
         <Navbar />
         <Home />
+        <Designs />
         <BuySell />
         <Blogs />
         <Footer />

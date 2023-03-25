@@ -58,4 +58,7 @@ const Section = styled.section`
 			font-size: 1.5vw;
 		}
 	}
+	@media screen and (min-width: 280px) and (max-width: 1080px) {
+		display: none;
+	}
 `;

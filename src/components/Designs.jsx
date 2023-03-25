@@ -27,5 +27,51 @@ export default function Designs() {
 
 
 const Div = styled.div`
-	
+	position: relative;
+	img {
+		position: absolute;
+	}
+	.design1 {
+		right: 0;
+		top: 7rem;
+		width: 12rem;
+	}
+	.design2 {
+		left: 0;
+		top: 4rem;
+		width: 8rem;
+	}
+	.design3 {
+		left: 0;
+		top: 32rem;
+	}
+	.design4 {
+		right: 0;
+		top: 60rem;
+		width: 8rem;
+	}
+	.design5 {
+		left: 2rem;
+		top: 85rem;
+		width: 6rem;
+	}
+	.design6 {
+		right: 0;
+		top: 78rem;
+		width: 12rem;
+	}
+	.design7 {
+		left: 0;
+		top: 100rem;
+		width: 8rem;
+	}
+	.design8 {
+		top: 105rem;
+		width: 8rem;
+		right: 0;
+	}
+	@media screen and (min-width: 280px) and (max-width: 1140px) {
+		display: none;
+	}
 `;
+

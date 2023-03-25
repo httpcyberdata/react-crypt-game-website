@@ -136,6 +136,46 @@ const Nav = styledComponents.nav`
 						}
 					}
 				}
+			}
+	@media screen and (min-width: 280px) and (max-width: 1080px) {
+		position: relative;
+		margin: 0;
+		.brand {
+			padding-top: 2rem 1rem;
+			justify-content: space-between;
+			width: 100%;
+			z-index: 2;
+			background-color: var(--background-color);
+			.toggle {
+				display: block;
+				svg {
+					font-size: 2rem;
+				}
+			}
 		}
+		.links {
+			position: absolute;
+			background-color: black;
+			margin-top: 5rem;
+			width: 100vw;
+			padding: 5rem 0;
+			transition: 0.4s ease-in-out;
+			gap: 2rem;
+			flex-direction: column;
+			ul {
+				flex-direction: column;
+				gap: 1rem;
+			}
+			.login-btn {
+				flex-direction: column;
+			}
+		}
+		.show {
+			top: 0;
+		} 
+		.hide {
+			top: -600px
+		}
+	}
 `;
 
