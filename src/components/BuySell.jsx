@@ -63,6 +63,22 @@ const Section = styled.section`
 		}
 	}
 	@media screen and (min-width: 280px) and (max-width: 1080px) {
-		display: none;
+		margin: 2rem 1rem;
+		.row {
+			gap: 2rem;
+			.col {
+				flex-direction: column;
+				text-align: center;
+				img {
+					height: 10rem;
+				}
+				h2 {
+					font-size: 1.5rem;
+				}
+				&:nth-of-type(2) {
+					flex-direction: column-reverse;
+				}
+			}
+		}
 	}
 `;
