@@ -22,7 +22,12 @@ ___________
 2.
 
 ### How to use
-
+1. clone / download
+2. npm install
+3. npm start OR yarn start
+4. Navigate to localhost:3000
+5. Scroll & hover over menu items.
+6. Edit and add more features
 ### Photos of project:
 ![](assets/react-crypt-game-website-1.gif)
 ![](assets/react-crypt-game-website-2.png)
