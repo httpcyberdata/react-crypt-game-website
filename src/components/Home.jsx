@@ -13,7 +13,7 @@ export default function Home() {
 					<span className="highlight">
 						Earthium
 					</span>
-					is a real-time
+					is a real-time strategic game
 				</h1>
 				<p>
 					Where you earn money, <span className="highlight"> crypto</span> and <span className="highlight"> NFT's</span> by trading land, finding treasures and building businesses. Welcome!
@@ -59,6 +59,26 @@ const Section = styled.section`
 		}
 	}
 	@media screen and (min-width: 280px) and (max-width: 1080px) {
-		display: none;
+		display: flex;
+		flex-direction: column-reverse;
+		height: max-content;
+		margin: 0 1rem;
+		.image {
+			img {
+				width: 100%;
+			}
+		}
+		.text {
+			padding-left: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			h1 {
+				font-size: 8vw;
+			}
+			p {
+				font-size: 5vw;
+			}
+		}
 	}
 `;
