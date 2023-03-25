@@ -26,7 +26,7 @@ ___________
 ### Photos of project:
 ![](assets/react-crypt-game-website-1.gif)
 ![](assets/react-crypt-game-website-2.png)
-![](assets/react-crypt-game-website-3.gif)
+![](../assets/react-crypt-game-website-3.gif)
 
 ### Apps used:
 
