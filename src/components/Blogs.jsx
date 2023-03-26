@@ -79,6 +79,16 @@ const Section = styled.section`
 		}
 	}
 	 @media screen and (min-width: 280px) and (max-width: 1080px) {
-		display: none;
+		margin: 2rem 1rem;
+		.title {
+			h2 {
+				font-size: 2.4rem;
+				color: var(--primary-color);
+			}
+		}
+	}
+	.blogs {
+		flex-direction: column;
+		gap: 2rem;
 	}
 `;

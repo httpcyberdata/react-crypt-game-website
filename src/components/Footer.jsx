@@ -32,7 +32,7 @@ export default function Footer() {
 	return (
 		<div>
 			<Foot>
-				<div className="upper_footer">
+				<div className="upper__footer">
 					<div className="brand">
 						<img src={logo} alt="Footer logo" />
 						<p> 
@@ -58,7 +58,7 @@ export default function Footer() {
 						)
 					})}
 				</div>
-				<div className="lower_footer">
+				<div className="lower__footer">
 					<span> &copy; 2022 Earthium </span>
 					<ul> 
 						<li>Facebook</li>
@@ -74,8 +74,8 @@ export default function Footer() {
 
 const Foot = styled.footer`
 	border-top: 0.02rem solid var(--primary-color);
-	margin: 5rem 0 1rem 0;
-	.upper_footer {
+	margin: 5rem 0rem 1rem 0rem;
+	.upper__footer {
 		margin: 0 5rem;
 		display: grid;
 		grid-template-columns: 3fr 1fr 1fr 1fr;
@@ -89,18 +89,18 @@ const Foot = styled.footer`
 			img {
 				height: 2rem;
 			}
-			.mail-container {
-				display: flex;
-				align-items: center;
-				gap: 1rem;
-				input {
-					padding: 0.8rem 1rem;
-					border-radius: 0.3rem;
-					border: none;
-					&:focus {
-						outline: none;
-					}
-				}
+		   .mail-container {
+		        display: flex;
+		        align-items: center;
+		        gap: 1rem;
+		        input {
+		          padding: 0.8rem 1rem;
+		          border-radius: 0.3rem;
+		          border: none;
+		          &:focus {
+		            outline: none;
+		          }
+		        }
 				button {
 					padding: 0.8rem 1rem;
 					gap: 0.5rem;
@@ -128,7 +128,7 @@ const Foot = styled.footer`
 
 		}
 	}
-	.lower_footer {
+	.lower__footer {
 		margin: 0 5rem;
 		display: flex;
 		justify-content: space-between;
@@ -149,7 +149,33 @@ const Foot = styled.footer`
 		}
 	}
 	@media screen and (min-width: 280px) and (max-width: 1080px) {
-		display: none;
+		margin: 2rem 1rem;
+		.upper__footer {
+  			margin: 2rem 1rem;
+      		display: flex;
+      		flex-direction: column;
+      		padding-top: 1rem;
+			.brand {
+				.mail-container {
+					flex-direction: column;
+					align-items: flex-start;
+				}
+			}
+			.links {
+				ul {
+					list-style-type: none;
+				}
+			}
+		}
+		.lower__footer {
+			margin: 2rem 1rem;
+			flex-direction: column-reverse;
+			gap: 1.5rem;
+			ul {
+				flex-direction: column;
+				gap: 1rem;
+			}
+		}
 	}
 
 `;
