@@ -47,11 +47,11 @@ export default function Footer() {
 					</div>
 					{links.map(({title, links}) => {
 						return (
-							<div className="links" key="title">
+							<div className="links" key={title}>
 								<h3>{title}</h3>
 								<ul>
 									{links.map((link) => (
-										<li key={links}>{link}</li>
+										<li key={link}>{link}</li>
 									))}
 								</ul>
 							</div>

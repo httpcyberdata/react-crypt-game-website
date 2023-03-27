@@ -141,11 +141,13 @@ const Nav = styledComponents.nav`
 		position: relative;
 		margin: 0;
 		.brand {
-			padding-top: 2rem 1rem;
+			padding: 2rem 1rem;
 			justify-content: space-between;
 			width: 100%;
 			z-index: 2;
 			background-color: var(--background-color);
+
+
 			.toggle {
 				display: block;
 				svg {

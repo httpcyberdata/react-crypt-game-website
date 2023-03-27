@@ -24,7 +24,11 @@ export default function App() {
       )
     };
     registerAnimations();
-  }, [])
+  }, []) 
+  window.setTimeout(() => {
+    const home = document.getElementById("home");
+    home.style.transform = "none";
+  }, 1500);
   return (
     <div>
         <ScrollToTop />

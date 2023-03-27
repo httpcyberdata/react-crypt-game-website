@@ -86,9 +86,9 @@ const Section = styled.section`
 				color: var(--primary-color);
 			}
 		}
-	}
-	.blogs {
-		flex-direction: column;
-		gap: 2rem;
+		.blogs {
+			flex-direction: column;
+			gap: 2rem;
+		}
 	}
 `;

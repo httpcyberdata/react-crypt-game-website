@@ -11,7 +11,7 @@ export default function Home() {
 			<div className="text">
 				<h1>
 					<span className="highlight">
-						Earthium
+						Earthium&nbsp;
 					</span>
 					is a real-time strategic game
 				</h1>
